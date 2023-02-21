@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+    #btn-mobile {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #nav.active #menu {
+        display: flex;
+    }
+}
