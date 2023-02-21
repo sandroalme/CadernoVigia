@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0PX;
     padding: 0px;
@@ -16,6 +18,8 @@ a {
   }
   
   #logo {
+    color: #0059F1;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
   }
