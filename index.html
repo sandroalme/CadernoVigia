@@ -7,21 +7,22 @@
     <title>CadernaDoVigia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
-    <script src="funcoes.js"></script>
 </head>
 <body>
     <header id="header">
         <a id="logo" href="">Logo</a>
         <nav id="nav">
-            <button id="btn-mobile">Menu</button>
-            <ul id="menu">
-                <li><a href="/">sobre</a></li>
-                <li><a href="/">sobre</a></li>
-                <li><a href="/">sobre</a></li>
-                <li><a href="/">sobre</a></li>
-            </ul>
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="/">Sobre</a></li>
+            <li><a href="/">Produtos</a></li>
+            <li><a href="/">Portfólio</a></li>
+            <li><a href="/">Contato</a></li>
+          </ul>
         </nav>
-    </header>
-    
+      </header>
+      <script src="funcoes.js"></script>
 </body>
 </html>
