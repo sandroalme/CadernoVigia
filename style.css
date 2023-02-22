@@ -12,6 +12,11 @@ a {
     text-decoration: none;
     font-family: sans-serif;
   }
+
+.acessar {
+  color: #0059F1;
+  font-weight: 500;
+}
   
 a:hover {
     background: rgba(0, 0, 0, 0.05);
@@ -35,6 +40,7 @@ a:hover {
   
 #menu {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 0.5rem;
   }
@@ -42,6 +48,18 @@ a:hover {
 #menu a {
     display: block;
     padding: 0.5rem;
+  }
+
+  #menu input {
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    background-color: #0059F1;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
   }
   
 #btn-mobile {
