@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media (max-width: 768px) {
+  
+    #header {
+      justify-content: space-between;
+    }
+
     #menu {
       display: block;
       position: absolute;
