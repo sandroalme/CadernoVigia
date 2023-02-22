@@ -13,18 +13,18 @@ a {
     font-family: sans-serif;
   }
   
-  a:hover {
+a:hover {
     background: rgba(0, 0, 0, 0.05);
   }
   
-  #logo {
+#logo {
     color: #0059F1;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
   }
   
-  #header {
+#header {
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
@@ -33,18 +33,51 @@ a {
     justify-content: space-around;
   }
   
-  #menu {
+#menu {
     display: flex;
     list-style: none;
     gap: 0.5rem;
   }
   
-  #menu a {
+#menu a {
     display: block;
     padding: 0.5rem;
   }
   
-  #btn-mobile {
+#btn-mobile {
     display: none;
   }
-  
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 14px;
+}
+ 
+#container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#container p {
+  font-family: 'Roboto', sans-serif;
+  color: #323F4B;
+  margin-bottom: 20px;
+}
+
+#container input {
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  background-color: #0059F1;
+  width: 180px;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+}
+
+#container input:hover {
+  background-color: #1b66e6;
+}
