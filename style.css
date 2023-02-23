@@ -16,8 +16,9 @@ a {
 .acessar {
   color: #0059F1;
   font-weight: 500;
+  margin-top: -10px;
 }
-  
+
 a:hover {
     background: rgba(0, 0, 0, 0.05);
   }
@@ -50,7 +51,7 @@ a:hover {
     padding: 0.5rem;
   }
 
-  #menu input {
+#menu input {
     margin: auto;
     cursor: pointer;
     color: white;
