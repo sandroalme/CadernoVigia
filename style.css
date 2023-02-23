@@ -13,6 +13,10 @@ a {
     font-family: sans-serif;
   }
 
+#espaco {
+  visibility: hidden;
+}
+
 #iacessar {
   display: flex;
   align-items: center;
