@@ -13,10 +13,16 @@ a {
     font-family: sans-serif;
   }
 
+#iacessar {
+  display: flex;
+  align-items: center;
+  color: #0059F1;
+}
+
 .acessar {
   color: #0059F1;
   font-weight: 500;
-  margin-top: -10px;
+  margin-right: -5px;
 }
 
 a:hover {
@@ -57,10 +63,14 @@ a:hover {
     color: white;
     font-size: 16px;
     background-color: #0059F1;
-    width: 130px;
+    width: 150px;
     height: 30px;
     border: none;
     border-radius: 12px;
+  }
+
+  #menu input:hover {
+    background-color: #1b66e6;
   }
   
 #btn-mobile {
