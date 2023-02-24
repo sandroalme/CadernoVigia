@@ -27,9 +27,6 @@
       margin: 0 1rem;
       border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     }
-    .material-icons {
-      margin-left: -15px;
-    }
     #btn-mobile {
       color: black;
       display: flex;
